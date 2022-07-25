@@ -22,7 +22,6 @@ local timer = 0
 
 callbacks.Register("Draw", function()
 	timer = timer + 1
-	print(timer)
 	if timer >= 700 then
 		if entities.GetLocalPlayer() ~= nil then
 			updateTeam()
